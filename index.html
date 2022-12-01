@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/globalStyle.css">
+    <link rel="stylesheet" href="./src/style/index.css">
+
+    <link rel="shortcut icon" href="./src/assets/img/faviconkenzie.webp" type="image/x-icon">
+
+    <title>Speed Job</title>
+</head>
+<body>
+    <main>
+    <header>
+        <h1>Speed <span class="job">Job</span></h1>
+        <p>Encontre a vaga que mais se parece com você</p>
+        <button type="submit">Vagas Frontend</button>
+        <button type="submit">Vagas Backend</button>
+    </header>
+    <article>
+        <h2>Frontend Jobs</h2>
+        <section class="containerFront">
+            <ul class="ulFront"></ul>
+        </section>
+        <h2>Backend Jobs</h2>
+        <section class="containerBack">
+            <ul class="ulBack"></ul>
+        </section>
+    </article>
+    </main>
+
+    <script src="./src/script/database.js"></script>
+    <script src="./src/script/index.js"></script>
+</body>
+</html>
