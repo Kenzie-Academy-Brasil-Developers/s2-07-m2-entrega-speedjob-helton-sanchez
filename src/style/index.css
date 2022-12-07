@@ -36,11 +36,7 @@ header > button:hover{
     background: var(--color-primary);
     font-weight: bold;
 }
-article{
-    position: relative;
-    margin: 50px auto;
-    width: 85%;
-}
+
 article > h2{
     margin: 20px 20px;
 }
